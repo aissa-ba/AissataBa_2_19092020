@@ -1,131 +1,150 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Maquette Réservia</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <title>Maquette Réservia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd01a692ea.js" crossorigin="anonymous"></script>
+</head>
+
 <body>
     <header>
-        <div><img src="images/Logo_Reservia.png" alt="logo réservia"/>
-        </div>
+        <!--debut header-->
+        <nav>
+            <div><img src="images/Logo_Reservia.png" alt="logo réservia" />
+            </div>
 
-       <ul><li><a href="#HébergementsàMarseille">Hébergements</a></li>
-           <li><a href="#ActivitésàMarseille">Activités</a></li>
-           <li><a href="">S'inscrire</a></li>
-       </ul>
-
-       <h1>Trouvez votre hébergement pour des vacances de reve</h1>
-       <p>En plein centre ville ou en pleine nature</p>
-
-  <input type="search"><button>Recherche</button>
-       
-       <h2>Filtres</h2>
-       <ul>
-           <li><a href="">Economique</a></li>
-           <li><a href="">Familial</a></li>
-           <li><a href="">Romantique</a></li>
-           <li><a href="">Animaux autorisés</a></li>
-       </ul>
+            <ul>
+                <!--ancres-->
+                <li><a href="#HébergementsàMarseille">Hébergements</a></li>
+                <li><a href="#ActivitésàMarseille">Activités</a></li>
+                <li><a href="">S'inscrire</a></li>
+            </ul>
+        </nav>
     </header>
+    <!--fin du header-->
 
-    <section>
+    <h1>Trouvez votre hébergement pour des vacances de reve</h1>
+    <!--h1-->
+    <p>En plein centre ville ou en pleine nature</p>
+
+    <input type="search"><button>Recherche</button>
+
+    <h2>Filtres</h2>
+    <!--filtres et h2-->
+    <nav>
+    <ul>
+        <li><i class="fas fa-money-bill-wave-alt"></i><a href="">Economique</a></li>
+        <li><i class="fas fa-child"></i><a href="">Familial</a></li>
+        <li><i class="fas fa-heart"></i><a href="">Romantique</a></li>
+        <li><i class="fas fa-dog"></i><a href="">Animaux autorisés</a></li></ul></nav>
+
+    <main>
         <h3 id="HébergementsàMarseille">Hébergements à Marseille</h3>
-
-        <figure>
-            <a href="images/la_cannebiere.jpeg"><img src="images/la_cannebiere.jpeg" alt="Auberge la cannebiere"
-                 title="Auberge la Cannebière"/></a>
-            <figcaption>Auberge la Cannebière<br>Nuit à partir de 25€
+        <!--h3-->
+        <aside>
+            <figure>
+                <a href="images/la_cannebiere.jpeg"><img src="images/la_cannebiere.jpeg" alt="Auberge la cannebiere"
+                        title="Auberge la Cannebière" /></a>
+                <figcaption>Auberge la Cannebière<br>Nuit à partir de 25€ <i class="fas fa-star blue"></i>
             </figcaption>
-            
-        </figure>
+            </figure>
 
-        <figure>
-            <a href="images/hotel_du_port.jpeg"><img src="images/hotel_du_port.jpeg"
-                 alt="Hotel du port"></a>
-            <figcaption>Hotel du port</figcaption>
-        </figure>
-        <figure>
-            <a href="images/hotel_les_mouettes.jpeg"><img src="images/hotel_les_mouettes.jpeg"
-                 alt="Hotel les mouettes"></a>
-            <figcaption>Hotel Les mouettes</figcaption>
-        </figure>
-        <figure>
-            <a href="images/Hotel_mer.jpeg"><img src="images/Hotel_mer.jpeg"
-                 alt="Hotel de la mer"></a>
-            <figcaption>Hotel de la mer</figcaption>
-        </figure>
-        <figure>
-            <a href="images/auberge_le_panier.jpeg"><img src="images/auberge_le_panier.jpeg"
-                 alt="Auberge Le Panier"></a>
-            <figcaption>Aubertge Le Panier</figcaption>
-        </figure>
-        <figure>
-            <a href="images/chez_amina.jpeg"><img src="images/chez_amina.jpeg"
-                 alt="Hotel chez Amina"></a>
-            <figcaption>Hotel chez Amina</figcaption>
-        </figure>
-    </section>
+            <figure>
+                <a href="images/hotel_du_port.jpeg"><img src="images/hotel_du_port.jpeg" alt="Hotel du port"></a>
+                <figcaption>Hotel du port<br>Nuit a partir de 52€<i class="fas fa-star blue"></i>
+                </figcaption> 
+            </figure>
 
+            <figure>
+                <a href="images/hotel_les_mouettes.jpeg"><img src="images/hotel_les_mouettes.jpeg"
+                        alt="Hotel les mouettes"><i class="fas fa-star"></i></a>
+                <figcaption>Hotel Les mouettes<br>Nuit à partir 76€<i class="fas fa-star blue"></i>
+                </figcaption>
+            </figure>
 
+            <figure>
+                <a href="images/Hotel_mer.jpeg"><img src="images/Hotel_mer.jpeg" alt="Hotel de la mer"></a>
+                <figcaption>Hotel de la mer<br>Nuit à partir de 46€<i class="fas fa-star blue"></i>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <a href="images/auberge_le_panier.jpeg"><img src="images/auberge_le_panier.jpeg"
+                        alt="Auberge Le Panier"></a>
+                <figcaption>Aubertge Le Panier<br>Nuit à partir de 23€<i class="fas fa-star blue"></i>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <a href="images/chez_amina.jpeg"><img src="images/chez_amina.jpeg" alt="Hotel chez Amina"></a>
+                <figcaption>Hotel chez Amina<br>Nuit à vpartir de 96€<i class="fas fa-star blue"></i>
+                </figcaption>
+            </figure>
+            <p>Afficher plus</p>
+        </aside>
+    </main>
+    <!--fin section-->
     <aside>
+        <!--debut aside-->
         <h3>Les plus populaires</h3>
         <figure>
             <a href="images/soleil_du_matin.jpeg"><img src="images/soleil_du_matin.jpeg"
-                 alt="Hotel Le soleil du matin"></a>
-            <figcaption>Hotel Le soleil du matin</figcaption>
+                    alt="Hotel Le soleil du matin"></a>
+            <figcaption>Hotel Le soleil du matin<br>Nuit à partir de 128€<i class="fas fa-star blue"></i>
+            </figcaption>
         </figure>
+
         <figure>
             <a href="images/coeur_de_leau.jpeg"><img src="images/coeur_de_leau.jpeg"
-                 alt="Au coeur de l'eau Chambres d'hotes"></a>
-            <figcaption>Au coeur de l'eau Chambrers d'hotes</figcaption>
+                    alt="Au coeur de l'eau Chambres d'hotes"></a>
+            <figcaption>Au coeur de l'eau Chambrers d'hotes<br>Nuit à partir de 71€<i class="fas fa-star blue"></i>
+            </figcaption>
         </figure>
+
         <figure>
-            <a href="images/bleu_et_blanc.jpeg"><img src="images/bleu_et_blanc.jpeg"
-                 alt="Hotel Toutbleu et Blanc"></a>
-            <figcaption>Hotel Tout bleu et Blanc</figcaption>
+            <a href="images/bleu_et_blanc.jpeg"><img src="images/bleu_et_blanc.jpeg" alt="Hotel Toutbleu et Blanc"></a>
+            <figcaption>Hotel Tout bleu et Blanc<br>Nuit à partir de 68€<i class="fas fa-star blue"></i>
+            </figcaption>
         </figure>
     </aside>
-
-
+    <!--fin aside-->
     <section>
+        <!--debut section (2)-->
         <h3 id="ActivitésàMarseille">Activités à Marseille</h3>
         <figure>
-            <a href="images/vieux_port.jpeg"><img src="images/vieux_port.jpeg"
-                 alt="Vieux Port"></a>
+            <a href="images/vieux_port.jpeg"><img src="images/vieux_port.jpeg" alt="Vieux Port"></a>
             <figcaption>Vieux Port</figcaption>
         </figure>
-        
+
         <figure>
-            <a href="images/fort_de_pomegues.jpeg"><img src="images/fort_de_pomegues.jpeg"
-                 alt="Fort de Pomegues"></a>
+            <a href="images/fort_de_pomegues.jpeg"><img src="images/fort_de_pomegues.jpeg" alt="Fort de Pomegues"></a>
             <figcaption>Fort de Pomègues</figcaption>
         </figure>
 
         <figure>
-            <a href="images/iles_du_frioul.jpeg"><img src="images/iles_du_frioul.jpeg"
-                 alt="iles du frioul"></a>
+            <a href="images/iles_du_frioul.jpeg"><img src="images/iles_du_frioul.jpeg" alt="iles du frioul"></a>
             <figcaption>Iles du Frioul</figcaption>
         </figure>
 
         <figure>
             <a href="images/parc_national.jpeg"><img src="images/parc_national.jpeg"
-                 alt="parc National des Calangues"></a>
+                    alt="parc National des Calangues"></a>
             <figcaption>Parc National des Calangues</figcaption>
         </figure>
         <figure>
-            <a href="images/notre_dame.jpeg"><img src="images/notre_dame.jpeg"
-                 alt="Notre-Dame-de-la-Garde"></a>
+            <a href="images/notre_dame.jpeg"><img src="images/notre_dame.jpeg" alt="Notre-Dame-de-la-Garde"></a>
             <figcaption>Notre-Dame-de-la-Garde</figcaption>
         </figure>
         <figure>
-            <a href="images/parc_longchamp.jpeg"><img src="images/parc_longchamp.jpeg"
-                 alt="Parc Longchamp"></a>
+            <a href="images/parc_longchamp.jpeg"><img src="images/parc_longchamp.jpeg" alt="Parc Longchamp"></a>
             <figcaption>Parc Longchamp</figcaption>
         </figure>
     </section>
-    
-    <footer>
+    <!--fin section (2)-->
+     <footer>
+        <!--debut footer-->
         <h3>A propos</h3>
         <ul>
             <li>Fontionnement du site</li>
@@ -145,6 +164,6 @@
             <li>>Nous contacter</li>
         </ul>
     </footer>
-
+    <!--fin footer-->
 </body>
 </html>
