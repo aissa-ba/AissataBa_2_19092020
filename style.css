@@ -1,6 +1,9 @@
 *
 {
-    
+    font-family: 'Raleway', sans-serif;  
+}
+.fa-star, .fa-money-bill-wave-alt, .fa-child, .fa-heart, .fa-dog {
+    color: #0065FC;
 }
 
 #logo
@@ -34,6 +37,11 @@ flex-direction: row;
 {
     display: flex;
     justify-content: space-around;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 .hébergements
