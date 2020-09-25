@@ -1,71 +1,82 @@
-*
+* /*paramètres généraux*/
 {
     font-family: 'Raleway', sans-serif;  
 }
-.fa-star, .fa-money-bill-wave-alt, .fa-child, .fa-heart, .fa-dog {
+.fa-star, .fa-money-bill-wave-alt, .fa-child, .fa-heart, .fa-dog
+{
     color: #0065FC;
+}
+
+.header /*contient le <nav>(ancres) et le logo*/
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;  
 }
 
 #logo
 {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 }
 
-.header
+
+#ancres 
 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     
 }
 
-.logo
-{
-display: flex;
-flex-direction: row;
-}
-
-#ancres
+.nav /*filtres*/
 {
     display: flex;
+    
+}
+
+.main /*bloc principal qui contient <article> et <aside>*/
+{
+    display: flex;
+
+}
+.article /*dirige hébergement (appartient a <main>)*/
+{
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
-#filtres
-{
-    display: flex;
-    justify-content: space-around;
-}
-.nav
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.hébergements
+.hébergements /*images hébergements*/
 {
     width: 200px;
     height: 110px;
     border-radius: 5px;
 }
 
-.populaires 
+.aside /*dirige populaires (appartient a <main>)*/
+{
+    display: flex;
+}
+.populaires /*images populaires*/
 {
     width: 100px;
     height: 100px;
     border-radius: 5px;
 }
 
-.activités
+.section /*n'appartient plus a <main> dirige (.activités)*/
+{
+    display: flex;
+}
+
+.activités /*images activités*/
 {
     width: 250px;
     height: 130px;
     border-radius: 5px;
 }
 
-footer
+footer /*bas de page*/
 {
     display: flex;
     flex-direction: row;
