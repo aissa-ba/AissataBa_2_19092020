@@ -42,8 +42,7 @@
 }
 .article /*dirige hébergement (appartient a <main>)*/
 {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
 }
 
 .hébergements /*images hébergements*/
@@ -51,6 +50,7 @@
     width: 200px;
     height: 110px;
     border-radius: 5px;
+
 }
 
 .aside /*dirige populaires (appartient a <main>)*/
