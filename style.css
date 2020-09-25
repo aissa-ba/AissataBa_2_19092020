@@ -6,44 +6,70 @@
 {
     color: #0065FC;
 }
+#flottant
+{
+   float: left; 
+   display: flex;
+}
 
 .logo
 {
     width: 150px;
     height: 100px;
-    
+    float: left;
 }
-header
+.Titre
 {
-    
+    clear: both;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 .main
 {
     display: flex;
    flex-wrap: wrap;
+   
 }
 
 .article
 {
-    width: 700px;
-   
+   width: 40px;
 }
 
 .hebergements
 {
-  display: flex;
-  flex-wrap: wrap;
- justify-content: space-between;
- width: 700px;
- border-radius: 10px 5px 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px;
+    background-color: palevioletred;
 
    
 }
-.img
+.img 
 {
-    width: 200px;
+    width: 220px;
     height: 150px;
+    border-radius: 5px;
+}
+.images
+{
+    width: 250px;
+    height: 300px;
+}
+
+.activites
+{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .aside
@@ -55,18 +81,25 @@ header
 {
     display: flex;
     flex-direction: column;
-   justify-content: flex-end;
-   width: 200px;
+    justify-content: flex-end;
+    width: 20%;
+    align-items: center;
+    background-color: salmon;
+    
+    
 }
 
 .pop
 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    
 }
 
-.#plus
+#plus
 {
     display: flex;
-   
+    justify-content: space-around;
+    align-items: baseline ;
 }
