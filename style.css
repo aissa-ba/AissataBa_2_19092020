@@ -2,87 +2,61 @@
 {
     font-family: 'Raleway', sans-serif;  
 }
-.fa-star, .fa-money-bill-wave-alt, .fa-child, .fa-heart, .fa-dog
+.fas ,.far
 {
     color: #0065FC;
 }
 
-.header /*contient le <nav>(ancres) et le logo*/
-{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: flex-end;  
-}
-
-#logo
+.logo
 {
     width: 150px;
     height: 100px;
 }
 
-
-#ancres 
-{
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-.nav /*filtres*/
-{
-    display: flex;
-    
-}
-
-.main /*bloc principal qui contient <article> et <aside>*/
-{
-    display: flex;
-
-}
-.article /*dirige hébergement (appartient a <main>)*/
-{
-    display: flex;
-}
-
-.hébergements /*images hébergements*/
-{
-    width: 200px;
-    height: 110px;
-    border-radius: 5px;
-
-}
-
-.aside /*dirige populaires (appartient a <main>)*/
-{
-    display: flex;
-}
-.populaires /*images populaires*/
-{
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-}
-
-.section /*n'appartient plus a <main> dirige (.activités)*/
-{
-    display: flex;
-}
-
-.activités /*images activités*/
-{
-    width: 250px;
-    height: 130px;
-    border-radius: 5px;
-}
-
-footer /*bas de page*/
+.main
 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    justify-content: space-between;
-    align-content: space-around;
+}
 
+.article
+{
+    
+
+  
+   
+}
+
+.hebergements
+{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+ width: 500px;
+ border-radius: 5px;
+
+   
+}
+.img
+{
+    width: 150px;
+    height: 100px;
+}
+
+.aside
+{
+    
+}
+
+.populaires
+{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+}
+
+.pop
+{
+    width: 100px;
+    height: 50;
 }
