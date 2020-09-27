@@ -7,93 +7,59 @@
     color: #0065FC;
 }
 
-.header
+.main
 {
     display: flex;
+    width: 100%;
 }
-
-.logoreservia
-{
-    width: 15%;
-}
-
-.logo /*image logo*/
-{
-    width: 150px;
-    height: 100px;
-}
-.flottant
-{
-    clear: both;
-}
-.nav
-{
-    width: 15%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.filttres
-{
-    display: flex; 
-    
-}
-
-.main /*block qui contient article&aside */
-{
-    display: flex;
-    width: 100px;
-    background-color: black;
-}
-
 .section
 {
-    max-width: 25%;
+    width: 70%;
+    background-color: darkslategrey;
 }
 
-.hebergements /*bloc qui controle les images de hébergements*/
+.hebergements
 {
-   
     display: flex;
-    background-color: darkorchid;
     justify-content: space-around;
     flex-wrap: wrap;
-    border-radius: 20px;
     width: 50%;
-    
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
 }
-
-
-
 .hbg1{
-    background-color: gray;
-    padding: 20px;
-    
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
-.hbg2{
-    background-color: hotpink;
-    padding: 20px;
+.hbg2
+{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 .hbg3{
-    background-color: cadetblue;
-    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 .hbg4{
-    background-color: darkcyan;
-    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 .hbg5{
-    background-color: darkkhaki;
-    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 .hbg6{
-    background-color: darkolivegreen;
-    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
-
-
-
-.img /*taille des images hebergements*/
+.img
 {
     width: 260px;
     height: 150px;
@@ -103,45 +69,123 @@
 
 .aside
 {
-    flex-basis: 20%;
-    flex-grow: 0;
-    flex-shrink: 0;
+
+}
+.pop /* images section populaire*/
+{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    float: left;
+    align-content: space-between;
 }
 
-.populaires /*block de populaires*/
+.populaires /*boite "Les plus populaires"*/
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-content: space-between;
     width: 20%;
-    align-items: center;
-    background-color: salmon;  
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    
 }
-
-.pop /* taille images populaires*/
-{
-    width: 150px;
-    height: 100px;
-    border-radius: 10px;
-}
-
-.activites /*block qui controle les images de activités*/
+.popu1 /*1er image des populaires*/
 {
     display: flex;
-    align-content: space-around;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
-.images /*taille grosses images dans activités*/
-{
-    width: 250px;
-    height: 300px;
+.popu2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+.popu3{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-#plus/*div entre footer et chaque*/
+.activites
 {
     display: flex;
     justify-content: space-around;
-    align-items: baseline ;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.images
+{
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.act1{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+    
+}
+.act2{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+}
+.act3{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+}
+.act4{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+}
+.act5{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+}
+.act6{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #F2F2F2;
+    margin: auto;
+}
+.deux
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titre1{
+    display: flex;
+}
+
+.titre2{
+    display: flex;
+}
+
+.titre3{
+    display: flex;
 }
