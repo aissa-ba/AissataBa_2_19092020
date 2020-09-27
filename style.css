@@ -6,6 +6,9 @@
 {
     color: #0065FC;
 }
+.h2{
+    font-size: small;
+}
 .hbg
 {
     background-color: white;
@@ -16,6 +19,10 @@
 .header
 {
 
+    background-image:url("images/Logo_Reservia.png")
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top :left; /* Le fond sera placé en haut à droite */
 }
 .logo
 {
@@ -23,12 +30,28 @@
     height: 100px;
     
 }
+#ancres
+{
+    display: flex;
+    justify-content: space-between;
+
+}
 .nav
 {
     display: flex;
-    justify-content: flex-end;
-    width: 70%;
-    background-color: violet;
+    justify-content: space-between ;
+    width: auto;
+    
+}
+
+.filtres
+{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.filtre{
+
 }
 
 .main
@@ -51,7 +74,6 @@
     background-color: #F2F2F2;
     border-radius: 50px;
 }
-
 
 .img
 {
@@ -118,43 +140,13 @@
     border-top-right-radius: 15px;
 
 }
-.act1{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-    margin: auto;
-    
-}
-.act2{
+.act{
     background-color: white;
     border-radius: 20px;
     box-shadow: 6px 6px 0px #F2F2F2;
     margin: auto;
 }
-.act3{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-    margin: auto;
-}
-.act4{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-    margin: auto;
-}
-.act5{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-    margin: auto;
-}
-.act6{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
-    margin: auto;
-}
+
 .deux
 {
     display: flex;
