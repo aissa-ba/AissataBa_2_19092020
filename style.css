@@ -14,51 +14,60 @@
     background-color: white;
     padding: 4px;
     border-radius: 20px;
+    margin-bottom: 25px;
 }
 
-.header
+header
 {
+  display: flex;
+  justify-content: space-between;
 }
 .logo
 {
     width: 150px;
-    height: 100px;
-    
 }
-#ancres
-{
-    display: flex;
-    justify-content: space-between;
 
-}
 .nav
 {
-    display: flex;
-    justify-content: space-between ;
-    width: auto;
-    
+ margin: 30px;
 }
 
+
+h1{
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 0px;
+}
+.button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: blue;
+}
 .filtres
 {
     justify-content: space-around;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.filtre{
-
+h2{
+    font-size: initial;
 }
 
-.main
+main
 {
     display: flex;
     justify-content: space-around;
 }
-.section
+section
 {
     width: 60%;
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
 }
 
 .hebergements
@@ -76,11 +85,12 @@
     border-top-right-radius: 15px;
 }
 
-.aside
+aside
 {
    width: 31%;
    background-color: #F2F2F2;
    border-radius: 15px 15px 15px 15px;
+   margin-bottom: 30px;
 
 }
 .pop /* images section populaire*/
@@ -111,6 +121,7 @@
     border-radius: 20px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
+    margin-bottom: 25px;
 }
 
 
@@ -122,6 +133,7 @@
     width: 90%;
     padding: 20px;
     border-radius: 30px;
+    margin-bottom: 25px;
 }
 
 .images
@@ -145,11 +157,17 @@
     flex-direction: column;
 }
 
+h3{
+    margin-left: 40px;
+}
 
 #plus
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color:  #F2F2F2;
+}
+.titre{
+    margin-right: 200px;
 }
 
