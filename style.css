@@ -37,7 +37,7 @@ h1{
     margin-bottom: 0px;
 }
 p{
-    margin-top: 0px;
+ margin-left: 5px;
 }
 .button{
     border-top-right-radius: 20px;
@@ -83,6 +83,7 @@ section
     height: 110px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    
 }
 
 aside
@@ -96,12 +97,13 @@ aside
 .pop /* images section populaire*/
 {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 130px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     float: left;
     align-content: space-between;
+    margin-right: 20px;
 }
 
 .populaires /*boite "Les plus populaires"*/
@@ -112,16 +114,17 @@ aside
 }
 
 
-.popu /*1er image des populaires*/
+sub{
+    font-size: 13px;
+}
+
+.popu /* images des populaires*/
 {
-    display: flex;
-    justify-content: space-between;
     background-color: white;
-    padding: 20px;
+    padding: 6px;
     border-radius: 20px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    
 }
 
 
@@ -129,10 +132,8 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     width: 90%;
     padding: 20px;
-    border-radius: 30px;
     margin-bottom: 25px;
 }
 
@@ -142,10 +143,10 @@ aside
     height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+   
 
 }
 .act{
-    background-color: white;
     border-radius: 20px;
     box-shadow: 6px 6px 0px #F2F2F2;
     margin: auto;
@@ -170,4 +171,6 @@ h3{
 .titre{
     margin-right: 200px;
 }
-
+ul{
+    list-style-type: none;
+}
