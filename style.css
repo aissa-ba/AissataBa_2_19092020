@@ -6,9 +6,7 @@
 {
     color: #0065FC;
 }
-.h2{
-    font-size: small;
-}
+
 .hbg
 {
     background-color: white;
@@ -22,6 +20,11 @@ header
   display: flex;
   justify-content: space-between;
 }
+a{
+    margin-right: 50px;
+    padding-top: 50px;
+
+}
 .logo
 {
     width: 150px;
@@ -29,7 +32,8 @@ header
 
 .nav
 {
- margin: 30px;
+ margin-top: 30px;
+ 
 }
 
 
@@ -92,7 +96,6 @@ aside
    background-color: #F2F2F2;
    border-radius: 15px 15px 15px 15px;
    margin-bottom: 30px;
-
 }
 .pop /* images section populaire*/
 {
