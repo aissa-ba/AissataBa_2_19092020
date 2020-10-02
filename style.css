@@ -12,7 +12,15 @@
 
 }
 
+span{
+    border: 1px solid;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 
+}
 
 
 .hbg
@@ -109,7 +117,6 @@ section
     height: 110px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    
 }
 
 aside
@@ -149,7 +156,6 @@ sub{
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 35px;
-    
 }
 
 
@@ -169,9 +175,8 @@ sub{
     height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-   
-
 }
+
 .act{
     border-radius: 20px;
     box-shadow: 6px 6px 0px #F2F2F2;
