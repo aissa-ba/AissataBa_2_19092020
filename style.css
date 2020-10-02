@@ -38,11 +38,13 @@ a{
 
 
 h1{
-    margin-bottom: 0px;
+    font-size: 20px;
 }
+
 p{
  margin-left: 5px;
 }
+
 .button{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -163,6 +165,7 @@ sub{
 
 h3{
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 #plus
