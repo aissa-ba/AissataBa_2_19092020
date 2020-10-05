@@ -14,7 +14,6 @@
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-color: gray;
-
 }
 
 span{
@@ -69,10 +68,19 @@ a:hover{
 
 .nav
 {
- margin-top: 30px;
+ width: 310px;
+ display: flex;
+ justify-content: space-between;
 }
-.nav:hover{
-    text-decoration: underline;
+.nav a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    padding-top: 10px;
+}
+.nav a:hover{
+    border-top: 3px solid #2196f3;
+    color: #2196f3;
 }
 
 
