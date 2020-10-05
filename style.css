@@ -6,9 +6,14 @@
 {
     color: #0065FC;
 } 
-.fa-border{
-    border-style: solid;
-    border-color: #0065FC;
+.fa {
+    border: 1px solid;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: gray;
 
 }
 
@@ -20,7 +25,6 @@ span{
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-color: gray;
-
 }
 
 
@@ -30,6 +34,10 @@ span{
     padding: 4px;
     border-radius: 20px;
     margin-bottom: 25px;
+}
+.hbg:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 header
@@ -52,7 +60,7 @@ header
 }
 
 a:hover{
-
+   
 }
 .logo
 {
@@ -62,7 +70,9 @@ a:hover{
 .nav
 {
  margin-top: 30px;
- 
+}
+.nav:hover{
+    text-decoration: underline;
 }
 
 
@@ -74,10 +84,9 @@ p{
  margin-left: 5px;
 }
 
-.button{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: blue;
+button{
+    
+   
 }
 .filtres
 {
@@ -149,6 +158,7 @@ aside
 
 sub{
     font-size: 13px;
+   
 }
 
 .popu /* images des populaires*/
@@ -157,6 +167,10 @@ sub{
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 35px;
+}
+.popu:hover{
+    text-decoration: underline;
+    transform: scale(1.2); 
 }
 
 
@@ -182,12 +196,20 @@ sub{
     border-radius: 20px;
     box-shadow: 6px 6px 0px #F2F2F2;
 }
+.act:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
 
 .deux
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.deux:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 h3{
