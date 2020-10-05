@@ -33,6 +33,7 @@ span{
     padding: 4px;
     border-radius: 20px;
     margin-bottom: 25px;
+    box-shadow: 10px 10px 10px 10px #F2F2F2;
 }
 .hbg:hover{
     text-decoration: underline;
@@ -64,6 +65,7 @@ a:hover{
 .logo
 {
     width: 150px;
+    padding-top: 10px;
 }
 
 .nav
@@ -76,7 +78,7 @@ a:hover{
     text-decoration: none;
     margin-top: 20px;
     color: black;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .nav a:hover{
     border-top: 3px solid #2196f3;
@@ -89,7 +91,7 @@ h1{
 }
 
 p{
- margin-left: 0px;
+ margin-left: 10px;
 }
 
 button{
@@ -123,9 +125,10 @@ section
     padding-left: 20px;
     padding-right: 20px;
 }
-section h3{
-    padding-left: 5px;
-    font-size: 15px;
+
+.etoiles{
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 .hebergements
@@ -133,6 +136,11 @@ section h3{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+#com{
+    font-size: 15px;
+    padding-left: 15px;
 }
 
 .img
@@ -188,6 +196,7 @@ sub{
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 35px;
+    box-shadow: 10px 10px 10px 10px #F2F2F2; 
 }
 .popu:hover{
     text-decoration: underline;
@@ -215,7 +224,7 @@ sub{
 
 .act{
     border-radius: 20px;
-    box-shadow: 6px 6px 0px #F2F2F2;
+    box-shadow: 6px 6px 6px 6px #F2F2F2;
 }
 .act:hover{
     text-decoration: underline;
