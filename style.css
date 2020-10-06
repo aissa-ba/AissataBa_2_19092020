@@ -17,13 +17,9 @@
 }
 
 span{
-    border: 1px solid;
     padding: 10px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-color: gray;
+    text-decoration: none;
+    color:black ;
 }
 
 
@@ -107,6 +103,28 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.filtres i{
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    background-color: #DEEBFF;
+}
+.filtres a{
+    text-decoration: none;
+    color: black;
+}
+.filtres a:hover{
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    color: black;
+}
+
+.filtre{
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+
+
 h2{
     font-size: initial;
 }
@@ -122,8 +140,8 @@ section
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
 }
 
 .etoiles{
@@ -164,6 +182,7 @@ aside h3{
     display: flex;
     justify-content: space-between;
     padding-right: 25px;
+    margin-left: 20px;
 }
 .pop /* images section populaire*/
 {
@@ -243,7 +262,7 @@ sub{
 }
 
 h3{
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
