@@ -57,21 +57,27 @@ header
 
 .search i{
     border: 1px solid #F2F2F2 ;
-    padding: 6px;
+    padding: 15px;
     background-color: #F2F2F2;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    color: black;
 }
 input{
-    height: 30px;
+    padding: 14px;
+    width: 250px;
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
 }
 button{
-    height: 30px;
-    width: 90px;
+    border: 1px solid #F2F2F2;
+    padding: 15px;
+    width: 120px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     text-decoration-color: white;
+    font-weight: bold;
 }
 
 .logo
@@ -85,6 +91,10 @@ button{
  width: 310px;
  display: flex;
  justify-content: space-between;
+}
+a #inscriptions{
+    font-weight: bold;
+    color: #0065FC;
 }
 .nav a{
     text-decoration: none;
@@ -103,7 +113,7 @@ h1{
 }
 
 button{
-    
+    color: white
    
 }
 .filtres
