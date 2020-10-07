@@ -40,7 +40,7 @@ header
 {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 45px;
   margin-right: 60px;
 }
 
@@ -59,8 +59,8 @@ header
     border: 1px solid #F2F2F2 ;
     padding: 15px;
     background-color: #F2F2F2;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: black;
 }
 input{
@@ -92,7 +92,7 @@ button{
  display: flex;
  justify-content: space-between;
 }
-a #inscriptions{
+.nav #sinscrire{
     font-weight: bold;
     color: #0065FC;
 }
@@ -177,6 +177,11 @@ section
     justify-content: space-around;
     flex-wrap: wrap;
 }
+section h3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
 
 #com{
     font-size: 15px;
