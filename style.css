@@ -106,6 +106,13 @@ button{
     border-top: 3px solid #2196f3;
     color: #2196f3;
 }
+#sinscrire{
+    font-weight: bold;
+    color: #0065FC;
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+}
 
 
 h1{
@@ -165,6 +172,11 @@ section
     padding-left: 30px;
     padding-right: 10px;
 }
+section h3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
 
 .etoiles{
     padding-left: 10px;
@@ -177,11 +189,6 @@ section
     justify-content: space-around;
     flex-wrap: wrap;
 }
-section h3{
-    margin-left: 15px;
-    margin-top: 20px;
-}
-
 
 #com{
     font-size: 15px;
