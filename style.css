@@ -189,7 +189,7 @@ section h3{
     box-shadow: 10px 10px 10px 10px #F2F2F2;
 }
 .hbg:hover{
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(1.1);
 }
 .hbg a{
@@ -272,7 +272,7 @@ sub{
     font-weight: bold;
 }
 .popu:hover{
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(1.1); 
 }
 
