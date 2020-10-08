@@ -120,7 +120,7 @@ button{
 }
 .filtres i{
     padding: 7px;
-    border: 1px solid grey;
+    border: 1px solid #DEEBFF;
     border-radius: 40px;
     background-color: #DEEBFF;
 }
@@ -135,7 +135,7 @@ button{
 }
 
 .filtre{
-    border: 1px solid gray;
+    border: 1px solid #DEEBFF ;
     border-radius: 50px;
 }
 
@@ -192,14 +192,20 @@ section h3{
     text-decoration: underline;
     transform: scale(1.1);
 }
+.hbg a{
+    text-decoration: none;
+    color: black;
+}
 .hbg p{
     margin-left: 12px;
+    font-weight: bold;
 }
 
 #com{
     font-size: 15px;
     padding-left: 15px;
 }
+
 
 .img
 {
@@ -246,6 +252,7 @@ aside h3{
 
 sub{
     font-size: 13px;
+    font-weight: normal;
    
 }
 
@@ -256,6 +263,13 @@ sub{
     border-radius: 20px;
     margin-bottom: 35px;
     box-shadow: 10px 10px 10px 10px #F2F2F2; 
+}
+.popu a{
+    text-decoration: none;
+    color: black;
+}
+.popu p{
+    font-weight: bold;
 }
 .popu:hover{
     text-decoration: underline;
@@ -291,6 +305,7 @@ sub{
 }
 .act p{
     margin-left: 8px;
+    font-weight: bold;
 }
 
 .deux
