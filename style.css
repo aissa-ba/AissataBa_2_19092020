@@ -190,7 +190,7 @@ section h3{
 }
 .hbg:hover{
     text-decoration: underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .hbg p{
     margin-left: 12px;
@@ -259,7 +259,7 @@ sub{
 }
 .popu:hover{
     text-decoration: underline;
-    transform: scale(1.2); 
+    transform: scale(1.1); 
 }
 
 
@@ -287,7 +287,7 @@ sub{
 }
 .act:hover{
     text-decoration: underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .act p{
     margin-left: 8px;
@@ -301,7 +301,7 @@ sub{
 }
 .deux:hover{
     text-decoration: underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 h3{
@@ -321,4 +321,30 @@ h3{
 }
 ul{
     list-style-type: none;
+}
+
+@media screen and (max-width: 1024px){
+
+.filtres{
+    width: 100%;
+}
+#filtre{
+    width: 100%;
+}
+.titre{
+    width: 100%;
+    margin-right: 0px;
+}
+#conteneur{
+    margin-left: 18px;
+    margin-right: 17px;
+}
+.populaires{
+    padding: 0px;
+}
+.activites{
+    
+    margin-left: 5px;
+    margin-right: 14px;
+}
 }
