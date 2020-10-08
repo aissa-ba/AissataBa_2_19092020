@@ -22,20 +22,6 @@ span{
     color:black ;
 }
 
-
-.hbg
-{
-    background-color: white;
-    padding: 4px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    box-shadow: 10px 10px 10px 10px #F2F2F2;
-}
-.hbg:hover{
-    text-decoration: underline;
-    transform: scale(1.2);
-}
-
 header
 {
   display: flex;
@@ -153,7 +139,11 @@ button{
     border-radius: 50px;
 }
 
-
+#p i{
+    color: white;
+    background-color: #0065FC;
+    border-radius: 20px;
+}
 h2{
     font-size: initial;
 }
@@ -188,6 +178,22 @@ section h3{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.hbg
+{
+    background-color: white;
+    padding: 4px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px 10px #F2F2F2;
+}
+.hbg:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+.hbg p{
+    margin-left: 12px;
 }
 
 #com{
@@ -282,6 +288,9 @@ sub{
 .act:hover{
     text-decoration: underline;
     transform: scale(1.2);
+}
+.act p{
+    margin-left: 8px;
 }
 
 .deux
