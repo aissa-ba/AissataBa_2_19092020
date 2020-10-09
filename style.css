@@ -300,12 +300,16 @@ sub{
     box-shadow: 6px 6px 6px 6px #F2F2F2;
 }
 .act:hover{
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(1.1);
 }
 .act p{
     margin-left: 8px;
     font-weight: bold;
+    color: black;
+}
+.act a{
+    text-decoration: none;
 }
 
 .deux
@@ -315,8 +319,11 @@ sub{
     justify-content: space-between;
 }
 .deux:hover{
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(1.1);
+}
+.deux a{
+    text-decoration: none;
 }
 
 h3{
@@ -359,6 +366,10 @@ ul{
 }
 .popu{
     margin-bottom: 50px;
+    padding: 0px;
+}
+.pop{
+    margin-right: 0px;
 }
 .activites{
     
