@@ -182,7 +182,8 @@ section h3{
     padding: 4px;
     border-radius: 20px;
     margin-bottom: 25px;
-    box-shadow: 5px 3px 3px 3px #F2F2F2;
+    box-shadow: 5px 3px 3px 3px rgb(201, 198, 198) ;
+    
 }
 .hbg:hover{
     text-decoration: none;
@@ -258,7 +259,7 @@ sub{
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 35px;
-    box-shadow: 5px 3px 3px 3px #F2F2F2; 
+    box-shadow: 5px 3px 3px 3px rgb(201, 198, 198) ;
 }
 .popu a{
     text-decoration: none;
