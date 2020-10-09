@@ -297,7 +297,7 @@ sub{
 
 .act{
     border-radius: 20px;
-    box-shadow: 6px 6px 6px 6px #F2F2F2;
+    box-shadow: 5px 2px 2px 2px #F2F2F2;
 }
 .act:hover{
     text-decoration: none;
@@ -367,6 +367,7 @@ ul{
 .popu{
     margin-bottom: 50px;
     padding: 0px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .pop{
     margin-right: 0px;
