@@ -63,7 +63,6 @@ button{
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    
 }
 
 .logo
@@ -480,4 +479,82 @@ article{
 .titre li{
     padding-bottom: 5px;
 }
+}
+@media all and (min-width: 700px) and (max-width: 768px){
+
+    #conteneur{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .filtres{
+        width: 100%;
+    }
+    section{
+        padding-left: 10px;
+        padding-right: 17px;
+    }
+    .hebergements{
+        justify-content: space-between;
+    }
+
+    aside{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    aside h3{
+        padding-right: initial;
+        margin-left: 5px;
+    }
+    .populaires{
+        padding: initial;
+        padding-left: 5px;
+    }
+    .popu p{
+        padding-left: 10px;
+    }
+    .popu{
+        width: 205px;
+        
+    }
+    .popu .pop{
+        float: initial;
+        margin-right: initial;
+        width: 206px;
+        height: 135px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: initial;
+    }
+
+    .activites{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .deux{
+        display: block;
+    }
+    .act{
+        margin-bottom: 50px;
+        height: min-content;
+    }
+    .act p{
+        margin-left: 15px;
+        margin-bottom: initial;
+        padding-bottom: 10px;
+    }
+    .act .img{
+        width: 240px;
+        height: 140px;
+    }
+
+
+    footer{
+        width: 100%;
+    }
+    .titre{
+        margin-left: initial;
+        margin-right: 40px;
+    }
 }
