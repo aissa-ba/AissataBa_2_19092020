@@ -259,7 +259,7 @@ sub{
     padding: 6px;
     border-radius: 20px;
     margin-bottom: 35px;
-    box-shadow: 5px 3px 3px 3px rgb(201, 198, 198) ;
+    box-shadow: 5px 3px 3px 3px rgb(223, 219, 219) ;
 }
 .popu a{
     text-decoration: none;
@@ -342,44 +342,142 @@ ul{
     list-style-type: none;
 }
 
-@media screen and (max-width: 1024px){
 
+@media screen and (max-width: 600px){
+
+header{
+    width: 100%;
+    margin-left: 5px;
+}
+.logo{
+    width: 120px;
+}
+h1{
+    width: 100%;
+    font-size: 17px;
+}
+#champ{
+    margin: initial;
+}
+#champ p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.search{
+    width: 100%;
+}
+.search i{
+    padding: 11px;
+}
+input{
+    padding: 11px;
+    width: 145px;
+}
+button{
+    width: 40px;
+    padding: 12px;
+}
 .filtres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 }
-#filtre{
+.filtres h2{
     width: 100%;
 }
-.titre{
-    width: 100%;
-    margin-right: 0px;
+.filtres a{
+    margin: 3px;
+}
+#p i{
+    padding: initial;
+}
+#flex{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #conteneur{
-    margin-left: 18px;
-    margin-right: 17px;
+    display: block;
+    margin-left: initial;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+aside{
+    width: 108%;
+    padding-left: initial;
 }
 .populaires{
-    padding: 0px;
+    padding: 13px;
 }
 .popu{
-    margin-bottom: 50px;
-    padding: 0px;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    width: 100%;
 }
-.pop{
-    margin-right: 0px;
+.popu p{
+    margin: initial;
+    padding-bottom: 40px;
+}
+.popu .pop{
+    width: 110px;
+    height: 120px;
+}
+.etoiles{
+    padding-bottom: initial;
+}
+section{
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    padding: initial;
+    margin-left: 11px;
+}
+.hbg .img{
+    width: 281px;
+    height: 125px;
+}
+.hbg p{
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+#com{
+    padding-left: initial;
+}
+article{
+    width: 100%;
+    margin-left: 3px;
 }
 .activites{
-    
-    margin-left: 5px;
-    margin-right: 14px;
+    display: block;
+    margin: initial;
+    padding: initial;
+    width: fit-content;
 }
+.act .images{
+    width: 281px;
+    height: 125px;
 }
-@media screen and (max-width: 768px){
-    main{
-        display: block;
-    }
-    section{
-        width: 100%;
-    }
+.act .img{
+    width: 281px;
+    height: 125px;
+}
+.act p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.deux{
+    display: block;
+}
+#plus{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titre{
+    margin: initial;
+}
+.titre li{
+    padding-bottom: 5px;
+}
 }
