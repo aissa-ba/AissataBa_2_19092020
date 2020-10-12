@@ -64,6 +64,12 @@ button{
     background-color: #0065FC;
     color: white;
 }
+button span{
+    color: white;
+}
+button .fas{
+    display: none;
+}
 
 .logo
 {
@@ -180,7 +186,7 @@ section h3{
     padding: 4px;
     border-radius: 20px;
     margin-bottom: 25px;
-    box-shadow: 5px 3px 3px 3px rgb(201, 198, 198) ;
+    box-shadow: 5px 2px 2px 2px rgb(201, 198, 198);
     
 }
 .hbg:hover{
@@ -352,7 +358,9 @@ header{
     width: 120px;
 }
 .nav{
-    
+    font-size: 15px;
+    margin-top: -24px;
+    width: initial;
 }
 .nav a{
     padding-bottom: 20px;
@@ -363,9 +371,12 @@ header{
     border-bottom: 3px solid #2196f3;
     color: #2196f3;
 }
+#sinscrire{
+    order: 1;
+}
 h1{
     width: 100%;
-    font-size: 17px;
+    font-size: 21px;
 }
 #champ{
     margin: initial;
@@ -378,16 +389,32 @@ h1{
     width: 100%;
 }
 .search i{
-    padding: 11px;
+
 }
 input{
-    padding: 11px;
+    padding: 14px;
     width: 145px;
+}
+button span{
+    display: none;
+}
+button .fas{
+    display: inline;
+    width: 15px;
+    border: 1px solid #F2F2F2;
+    padding: 15px;
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;
 }
 button{
     width: 40px;
-    padding: 12px;
+    padding: 0px;
+    background-color: unset;
 }
+
 .filtres{
     display: flex;
     flex-direction: row;
@@ -441,8 +468,9 @@ section{
     width: 100%;
     background-color: white;
     padding-left: 10px;
-    padding: initial;
-    margin-left: 11px;
+}
+.hbg{
+    box-shadow: 5px 2px 2px 2px #F2F2F2;
 }
 .hbg .img{
     width: 281px;
@@ -457,11 +485,10 @@ section{
 }
 article{
     width: 100%;
-    margin-left: 3px;
+    margin-left: -5px;
 }
 .activites{
     display: block;
-    margin: initial;
     padding: initial;
     width: fit-content;
 }
@@ -497,6 +524,7 @@ article{
     header{
         margin-right: 18px;
         margin-left: 13px;
+        margin-bottom: 30px;
     }
     #conteneur{
         margin-left: 5px;
@@ -508,25 +536,40 @@ article{
     .filtres{
         width: 100%;
     }
+    button span{
+        color: white;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     section{
-        padding-left: 10px;
-        padding-right: 17px;
+        padding-left: 0px;
+        padding-right: 5px;
+        width: 100%;
     }
     .hebergements{
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     aside{
+        width: 100%;
         padding-left: 5px;
-        padding-right: 5px;
+        margin-right: 2px;
+        padding-right: 0px;
     }
     aside h3{
         padding-right: initial;
-        margin-left: 5px;
+        margin-left: 16px;
+        padding-right: 22px;
     }
     .populaires{
         padding: initial;
         padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     .popu p{
         padding-left: 10px;
@@ -544,9 +587,12 @@ article{
         border-bottom-left-radius: initial;
     }
 
+    article h3{
+        margin-left: 60px;
+    }
     .activites{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         width: 80%;
         margin-left: 30px;
