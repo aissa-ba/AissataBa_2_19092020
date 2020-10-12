@@ -32,7 +32,7 @@ header
 
 #conteneur
 {
-    margin-left: 30px;
+    margin-left: 18px;
     margin-right: 30px;
 }
 #champ
@@ -388,12 +388,9 @@ h1{
 .search{
     width: 100%;
 }
-.search i{
-
-}
 input{
     padding: 14px;
-    width: 145px;
+    width: 155px;
 }
 button span{
     display: none;
