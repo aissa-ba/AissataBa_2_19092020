@@ -77,6 +77,10 @@ button .fas{
     padding-top: 10px;
 }
 
+.nav span{
+    padding-top: 43px;
+    display: contents;
+}
 .nav
 {
  width: 310px;
