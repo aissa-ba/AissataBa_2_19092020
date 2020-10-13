@@ -365,6 +365,7 @@ header{
     font-size: 15px;
     margin-top: -24px;
     width: initial;
+    margin-right: 10px;
 }
 .nav a{
     padding-bottom: 20px;
@@ -469,6 +470,8 @@ section{
     width: 100%;
     background-color: white;
     padding-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .hbg{
     box-shadow: 5px 2px 2px 2px #F2F2F2;
@@ -487,6 +490,8 @@ section{
 article{
     width: 100%;
     margin-left: -5px;
+    display: flex;
+    flex-direction: column;
 }
 .activites{
     display: block;
