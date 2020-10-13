@@ -491,6 +491,8 @@ article{
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .activites{
     display: block;
