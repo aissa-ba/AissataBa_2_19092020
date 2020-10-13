@@ -470,6 +470,7 @@ section{
     width: 100%;
     background-color: white;
     padding-left: 10px;
+    margin-left: 5px;
     display: flex;
     flex-direction: column;
 }
